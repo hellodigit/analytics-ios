@@ -14,8 +14,8 @@ extern NSString *const SEGSegmentRequestDidFailNotification;
 @property (nonatomic, copy) NSString *anonymousId;
 @property (nonatomic, copy) NSString *userId;
 @property (nonatomic, strong) NSURL *apiURL;
-@property (nonatomic, strong, readonly) NSDictionary *context;
 
 - (id)initWithAnalytics:(SEGAnalytics *)analytics;
+- (NSDictionary *)staticContext;
 
 @end
