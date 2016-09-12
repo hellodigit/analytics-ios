@@ -9,8 +9,6 @@
 #import "SEGBluetooth.h"
 #import <CoreBluetooth/CoreBluetooth.h>
 
-const NSString *SEGCentralManagerClass = @"CBCentralManager";
-
 
 @interface SEGBluetooth () <CBCentralManagerDelegate>
 
