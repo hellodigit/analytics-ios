@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
 #import "SEGIntegrationFactory.h"
-#import "SEGCrypto.h"
 
 /**
  * NSNotification name, that is posted after integrations are loaded.
