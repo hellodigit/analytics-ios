@@ -92,13 +92,6 @@ typedef NSMutableURLRequest * (^SEGRequestFactory)(NSURL *);
  * Set a custom request factory.
  */
 @property (nonatomic, strong) SEGRequestFactory requestFactory;
-
-/**
- * Set a custom crypto
- */
-@property (nonatomic, strong) id<SEGCrypto> crypto;
-
-/**
  * Register a factory that can be used to create an integration.
  */
 - (void)use:(id<SEGIntegrationFactory>)factory;
