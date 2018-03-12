@@ -34,11 +34,13 @@
 
 - (BOOL)hasKnownState
 {
+    return NO;
 //    return _manager && (_manager.state != CBCentralManagerStateUnknown);
 }
 
 - (BOOL)isEnabled
 {
+     return NO;
 //    return _manager.state == CBCentralManagerStatePoweredOn;
 }
 
