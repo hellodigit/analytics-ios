@@ -43,6 +43,7 @@ NSString *SEGAnalyticsIntegrationDidStart = @"io.segment.analytics.integration.d
     if (self = [super init]) {
         self.shouldUseLocationServices = NO;
         self.enableAdvertisingTracking = YES;
+        self.shouldUseBluetooth = NO;
         self.flushAt = 20;
         _factories = [NSMutableArray array];
         [_factories addObject:[SEGSegmentIntegrationFactory instance]];
